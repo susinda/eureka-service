@@ -104,7 +104,8 @@
                           </configuration>
                           <phase>install</phase>
                         </execution-->
-                        
+                        <!-- Add above if need to push th elatest tag-->
+
                         <execution>
                           <id>tag-version</id>
                           <goals>
