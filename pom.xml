@@ -93,7 +93,7 @@
                           <phase>install</phase>
                         </execution>
                         
-                        <execution>
+                        <!--execution>
                           <id>tag-latest</id>
                           <goals>
                             <goal>tag</goal>
@@ -103,7 +103,7 @@
                             <tag>latest</tag>
                           </configuration>
                           <phase>install</phase>
-                        </execution>
+                        </execution-->
                         
                         <execution>
                           <id>tag-version</id>
