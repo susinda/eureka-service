@@ -110,7 +110,7 @@
                             <goal>push</goal>
                           </goals>
                           <configuration>
-                            <tag>${git.commit.id.abbrev}</tag>
+                            <tag>${git.commit.id.abbrev}-${maven.build.timestamp}</tag>
                           </configuration>
                          <phase>install</phase>
                         </execution>
