@@ -2,7 +2,7 @@
 FROM java:8
 
 # Copy files and directories from the application
-COPY target/eureka-server*.jar /opt/
+COPY target/eureka-service*.jar /opt/
 COPY src/main/resources/application.properties /opt/
 
 #set workdir
